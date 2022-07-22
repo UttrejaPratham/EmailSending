@@ -10,8 +10,8 @@ public class App {
         System.out.println("sending");
         String message = "Hello, there";
         String subject = "CodersArea : confirmation";
-        String to = "upratham07@gmail.com";
-        String from = "fissionyt.org@gmail.com";
+        String to = "Receiver emailID";
+        String from = "Sender emailID";
 
         sendEmail(message,subject,to,from);
     }
